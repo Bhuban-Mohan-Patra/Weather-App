@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-clear-day {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSozCLfJt6o2cqsO0RJT0a3E1NOpiBJS1c05Q&s') no-repeat center center;
+  background-size: cover;
+}
+.bg-cloudy {
+  background: url('https://img.freepik.com/free-photo/gradient-blue-sky-with-white-clouds_23-2148824941.jpg') no-repeat center center;
+  background-size: cover;
+}
+.bg-rainy {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJX828TpfIbLUzHAvUwvB0FdU2eAmTNaYjw&s') no-repeat center center;
+  background-size: cover;
+}
+.bg-snowy {
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwj3C-gvfz3ztDwBm9E9AbFWJduZhaoo2DnA&s') no-repeat center center;
+  background-size: cover;
+}
+.bg-thunderstorm {
+  background: url('https://media.istockphoto.com/id/1367804543/photo/cloudy-sky-flashes-and-rain-cloudy-sky-flashes-and-rain.webp?b=1&s=170667a&w=0&k=20&c=jZ1mGKdZLIGlQ4l_N-fB1NNqVBb8Dm1LkpLtyf6-6zg=') no-repeat center center;
+  background-size: cover;
+}
+.bg-haze { /* Added haze background class */
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStrglp0XGiyGy7Wz83yyr5uPvgnK_uD3fB7A&s') no-repeat center center;
+    background-size: cover;
+  }
+
+.card{
+    width: 50%;
+    padding-top: 5rem;
+    margin: 3rem;
+    border-radius: 20px;
+}
